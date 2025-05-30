@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  jupyter:
+    build: .
+    container_name: jupyter-python-3.10
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./notebooks:/workspace
+    env_file:
+      - .env

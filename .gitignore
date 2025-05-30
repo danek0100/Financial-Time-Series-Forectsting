@@ -1,0 +1,52 @@
+# ▶ Виртуальные окружения
+.venv/
+venv/
+env/
+ENV/
+venvs/
+
+# ▶ Персональные переменные окружения
+.env
+.env.*
+
+# ▶ Jupyter checkpoint-файлы и метаданные
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ▶ Кэш Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# ▶ Кэш pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ▶ Логи и отладка
+*.log
+*.out
+*.err
+
+# ▶ Настройки IDE (VSCode, PyCharm и др.)
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# ▶ Jupyter runtime (локальные токены и порты)
+~/.local/share/jupyter/runtime/
+*.nbconvert.ipynb
+
+# ▶ MyPy, Pyright и прочие анализаторы
+.mypy_cache/
+.pyright/
+
+# ▶ Jupyter auto-save файлов (если сохранились)
+*.nbconvert.ipynb
+*.checkpoint.ipynb
+
+# ▶ Mac OS / Linux / Windows системные
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
